@@ -29,8 +29,7 @@ It also includes the questions as well as the schema for the survey responses. S
 2. Few years ago (2-3 years), I belive most machine learning engineers work on tabular dataset, then on image dataset, and since a year ago, more people start working on natural language processing (NLP).
 
 ## Methodology
-For identifying specific roles, 
-
+I am considering to use a clustering algorithm (K-means, GMM, etc...), but also I think I'm going to analyze the data based on self-identified roles/titles. This is because self-identified roles can be considered as the ground truth. However, clustering algorithms can also identify common areas regardless of how responders identified themselves.
 
 #### Links to dataset
 - [Kaggle ML & DS Survey 2017](https://www.kaggle.com/kaggle/kaggle-survey-2017)
